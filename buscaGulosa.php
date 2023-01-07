@@ -114,7 +114,7 @@ function busca_gulosa($quadradoMagico_inicial)
     // Criamos o nó raiz da árvore de busca
     $raiz = new No($quadradoMagico_inicial, 0, 0);
 
-    // Inicializamos as listas de nós abertos, fechados a fila de regras
+    // Inicializamos as listas de nós abertos e  fechados 
     $abertos = array($raiz);
     $fechados = array();
 
